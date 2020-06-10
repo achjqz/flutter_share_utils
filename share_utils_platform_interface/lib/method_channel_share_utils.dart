@@ -11,7 +11,7 @@ class MethodChannelShareUtils extends ShareUtilsPlatform {
   }
 
   @override
-  String getUserAgent() {
+  String getPlatform() {
     return Platform.operatingSystem;
   }
 }

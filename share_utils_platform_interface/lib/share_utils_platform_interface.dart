@@ -19,7 +19,7 @@ abstract class ShareUtilsPlatform extends PlatformInterface {
     throw UnimplementedError('getDeviceName() has not been implemented.');
   }
 
-  String getUserAgent() {
+  String getPlatform() {
     throw UnimplementedError('getUserAgent() has not been implemented.');
   }
 }
