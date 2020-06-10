@@ -60,6 +60,11 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   matcher:
     dependency: transitive
     description:
@@ -100,7 +105,16 @@ packages:
     description:
       path: share_utils_platform_interface
       ref: master
-      resolved-ref: d089d1f33ce8432698d613b1275395dfb207fb42
+      resolved-ref: "0ac59f58e7b7ae6cedfb156f2166b9547c3b0707"
+      url: "https://github.com/achjqz/flutter_share_utils.git"
+    source: git
+    version: "0.0.1"
+  share_utils_web:
+    dependency: transitive
+    description:
+      path: share_utils_web
+      ref: master
+      resolved-ref: "0ac59f58e7b7ae6cedfb156f2166b9547c3b0707"
       url: "https://github.com/achjqz/flutter_share_utils.git"
     source: git
     version: "0.0.1"

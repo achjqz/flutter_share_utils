@@ -8,7 +8,7 @@ class ShareUtils {
     return await ShareUtilsPlatform.instance.getDeviceName();
   }
 
-  static Future<String> get userAgent async {
-    return await ShareUtilsPlatform.instance.getUserAgent();
+  static String get userAgent {
+    return ShareUtilsPlatform.instance.getUserAgent();
   }
 }

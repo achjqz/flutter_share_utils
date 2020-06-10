@@ -10,8 +10,8 @@ public class ShareUtilsPlugin: NSObject, FlutterPlugin {
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
     switch call.method {
-    case "getPlatformVersion":
-      result("macOS " + ProcessInfo.processInfo.operatingSystemVersionString)
+    case "getDeviceName":
+      result(Host.current().localizedName)
     default:
       result(FlutterMethodNotImplemented)
     }

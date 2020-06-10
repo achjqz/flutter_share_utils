@@ -1,5 +1,5 @@
 import 'package:flutter/services.dart';
-
+import 'dart:io';
 import 'share_utils_platform_interface.dart';
 
 const MethodChannel _channel = MethodChannel('achjqz.com/share_utils');
@@ -12,6 +12,6 @@ class MethodChannelShareUtils extends ShareUtilsPlatform {
 
   @override
   String getUserAgent() {
-    return Platform;
+    return Platform.operatingSystem;
   }
 }
