@@ -15,7 +15,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String _deviceName = 'Unknown';
-
+  String _userAgent = 'Unknown';
   @override
   void initState() {
     super.initState();
@@ -39,6 +39,7 @@ class _MyAppState extends State<MyApp> {
 
     setState(() {
       _deviceName = deviceName;
+      _userAgent = ShareUtils.userAgent;
     });
   }
 
@@ -50,7 +51,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: Text('Running on: $_deviceName\n'),
+          child: Text('Running on: $_deviceName\nagent: $_userAgent'),
         ),
       ),
     );
