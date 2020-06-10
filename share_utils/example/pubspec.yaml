@@ -1,9 +1,11 @@
-name: shareutils_example
+name: share_utils_example
 description: Demonstrates how to use the shareutils plugin.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -12,7 +14,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  shareu_tils:
+  share_utils:
     # When depending on this package from a real application you should use:
     #   shareutils: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints

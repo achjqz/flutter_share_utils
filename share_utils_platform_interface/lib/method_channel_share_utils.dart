@@ -11,7 +11,7 @@ class MethodChannelShareUtils extends ShareUtilsPlatform {
   }
 
   @override
-  Future<String> getUserAgent() {
-    return _channel.invokeMethod('getUserAgent');
+  String getUserAgent() {
+    return Platform;
   }
 }

@@ -5,8 +5,8 @@
 import FlutterMacOS
 import Foundation
 
-import shareutils
+import share_utils
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
-  ShareutilsPlugin.register(with: registry.registrar(forPlugin: "ShareutilsPlugin"))
+  ShareUtilsPlugin.register(with: registry.registrar(forPlugin: "ShareUtilsPlugin"))
 }
