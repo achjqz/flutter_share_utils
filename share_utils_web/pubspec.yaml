@@ -1,12 +1,12 @@
 name: share_utils_web
 description: a flutter plugin for share app
-version: 0.0.1
+version: 1.0.0
 
 publish_to: 'none'
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
-  flutter: ">=1.10.0"
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.12.0"
 
 dependencies:
   flutter:

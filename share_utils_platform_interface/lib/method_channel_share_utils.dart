@@ -7,7 +7,7 @@ const MethodChannel _channel = MethodChannel('achjqz.com/share_utils');
 class MethodChannelShareUtils extends ShareUtilsPlatform {
   @override
   Future<String> getDeviceName() {
-    return _channel.invokeMethod('getDeviceName');
+    return _channel.invokeMethod<String>('getDeviceName').then((value) => value ?? "");
   }
 
   @override
